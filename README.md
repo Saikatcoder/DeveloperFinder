@@ -32,5 +32,5 @@ link :- https://developer-finder-sage.vercel.app/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/github-profile-viewer.git
+   git clone https://github.com/saikatcoder/DeveloperFinder.git
    cd github-profile-viewer
