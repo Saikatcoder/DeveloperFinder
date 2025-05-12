@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dev Finder</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+  <body class="bg-gray-900 text-white min-h-screen flex items-center justify-center p-4">
+
+  <div class="w-full max-w-xl space-y-6">
+
+    <!-- 🔍 Search Box -->
+    <div class="flex items-center gap-4">
+      <input id="usernameInput" type="text" placeholder="Enter GitHub username..."
+        class="w-full px-4 py-3 rounded-lg bg-gray-800 text-white border border-gray-600 focus:outline-none focus:ring-2 focus:ring-purple-500" />
+      <button id="searchBtn" 
+        class="px-6 py-3 bg-purple-600 hover:bg-purple-700 rounded-lg font-semibold transition" >
+        Search
+      </button>
+    </div>
+    <!-- 👤 Profile Preview -->
+    <div id="profileCard" class="bg-slate-800 rounded-xl p-6 shadow-lg ">
+     
+    </div>
+    <div>
+<canvas id="myChart" width="400" height="200"></canvas>
+</div>
+  </div>
+  <script src="app.js"></script>
+  </body>
+</html>
