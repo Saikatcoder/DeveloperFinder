@@ -18,8 +18,7 @@ A simple web app that lets you search for any GitHub user's profile and display 
 > Replace `screenshot.png` with your own screenshot file.
 
 ## 🚀 Live Demo
-
-Coming Soon...
+link :- https://developer-finder-sage.vercel.app/
 
 ## 🛠️ Technologies Used
 
